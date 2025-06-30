@@ -1,0 +1,1379 @@
+                    </p>
+
+            <div class="level-dice" id="levelDice" onclick="rollNiveau()">5
+                </div>
+                
+                
+        
+        <!-- Section Attributs & Modificateurs -->
+        <section id="abilities" class="content-section">
+            <h2 class="section-title">Attributs & Modificateurs & Modifiers</h2>
+            <div class="section-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <div class="stat-name">Wisdom (WIS)</div>
+                            <div class="stat-value" onclick="rollStatDice(this)">
+                                18
+                                <span class="stat-modifier">+4</span>
+                            </div>
+                        </div>
+                        <div class="stat-description">
+                            <strong>Perception passive : 14</strong><br>
+                            Ma capacité à percevoir les ambiances, les non-dits et les énergies subtiles. Cette sagesse intuitive guide toutes mes décisions importantes.
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <div class="stat-name">Intelligence (INT)</div>
+                            <div class="stat-value" onclick="rollStatDice(this)">
+                                16
+                                <span class="stat-modifier">+3</span>
+                            </div>
+                        </div>
+                        <div class="stat-description">
+                            <strong>Investigation : +6</strong><br>
+                            Curiosité intellectuelle constante. J'analyse, je questionne, je cherche toujours le "pourquoi" derrière chaque mécanisme.
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <div class="stat-name">Charisma (CHA)</div>
+                            <div class="stat-value" onclick="rollStatDice(this)">
+                                17
+                                <span class="stat-modifier">+3</span>
+                            </div>
+                        </div>
+                        <div class="stat-description">
+                            <strong>Persuasion : +6, Performance : +6</strong><br>
+                            Mon authenticité crée des connexions profondes. Ma voix porte, mes mots touchent, mes histoires captivent.
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <div class="stat-name">Constitution (CON)</div>
+                            <div class="stat-value" onclick="rollStatDice(this)">
+                                14
+                                <span class="stat-modifier">+2</span>
+                            </div>
+                        </div>
+                        <div class="stat-description">
+                            <strong>Hit Points : 38</strong><br>
+                            Résilience émotionnelle développée. Je sais prendre soin de moi pour tenir la distance dans mes quêtes.
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <div class="stat-name">Dexterity (DEX)</div>
+                            <div class="stat-value" onclick="rollStatDice(this)">
+                                12
+                                <span class="stat-modifier">+1</span>
+                            </div>
+                        </div>
+                        <div class="stat-description">
+                            <strong>Initiative : +1</strong><br>
+                            J'avance à mon rythme, avec tempérance. La précision prime sur la rapidité dans mes actions.
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <div class="stat-name">Strength (STR)</div>
+                            <div class="stat-value" onclick="rollStatDice(this)">
+                                10
+                                <span class="stat-modifier">+0</span>
+                            </div>
+                        </div>
+                        <div class="stat-description">
+                            <strong>Athletics : +0</strong><br>
+                            Ma force réside dans l'esprit plutôt que dans le physique. Je préfère les solutions créatives aux approches brutales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section Journal de Quêtes -->
+        
+
+
+<section id="quests" class="content-section">
+    <h2 class="section-title">Journal de Quêtes - Aventures en Préparation</h2>
+    <div class="quest-journal">
+        <div class="quest-card">
+            <div class="quest-header">
+                <div class="quest-icon">🏰</div>
+                <h3>Campement de Long Terme</h3>
+            </div>
+            <div class="quest-description">
+                Je cherche une guilde, PME ou bastion colossal, où m’enraciner et plonger au cœur des quêtes. Un CDI pour tisser alliances et progresser dans les terres du marketing et de la communication.
+            </div>
+        </div>
+        <div class="quest-card">
+            <div class="quest-header">
+                <div class="quest-icon">🪄</div>
+                <h3>Équilibre de Barde Itinérante</h3>
+            </div>
+            <div class="quest-description">
+                J’apprécie mes retraites dans la tour d’ivoire (télétravail) mais je savoure aussi les banquets d’équipe (présentiel). L’idéal ? Un à deux jours en distanciel pour préserver l’harmonie.
+            </div>
+        </div>
+        <div class="quest-card">
+            <div class="quest-header">
+                <div class="quest-icon">📜</div>
+                <h3>Sorts et Stratégies Affûtés</h3>
+            </div>
+            <div class="quest-description">
+                Les années à l’Académie (MédiaSchool) ont affûté mes arcanes en stratégie et rédaction. Je veux à présent les lancer pour des quêtes riches de sens.
+            </div>
+        </div>
+        <div class="quest-card">
+            <div class="quest-header">
+                <div class="quest-icon">🎙️</div>
+                <h3>Campagne Audio en Germe</h3>
+            </div>
+            <div class="quest-description">
+                Je rêve d’un podcast avec mes compagnons d’aventure, inspiré par Critical Role, Dimension 20 et La Bonne Auberge, mêlant narration, jeu et immersion sonore.
+            </div>
+        </div>
+        <div class="quest-card">
+            <div class="quest-header">
+                <div class="quest-icon">🗺️</div>
+                <h3>Objectifs et Mécénat</h3>
+            </div>
+            <div class="quest-description">
+                Sous six lunes : un CDI. Sous huit lunes : un pilote de podcast, financé par les offrandes des mécènes via Patreon (5€, 12€, 25€), pour ériger un havre d’histoires.
+            </div>
+        </div>
+        <div class="quest-card">
+            <div class="quest-header">
+                <div class="quest-icon">🖋️</div>
+                <h3>Cartes et Teasers à Esquisser</h3>
+            </div>
+            <div class="quest-description">
+                Je poursuis ces quêtes avec rigueur, tissant des liens via APEC & LinkedIn, jusqu’à composer un cercle soudé prêt à tracer le business plan et éveiller les voyageurs.
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        
+        <!-- Section Compétences & Dons -->
+        <section id="skills" class="content-section">
+            <h2 class="section-title">Compétences & Dons Maîtrisés</h2>
+            <div class="section-content">
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-name">Digital Spellcasting</div>
+                            <div class="skill-level">Expertise</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                        <div class="skill-description">
+                            Maîtrise des sorts de WordPress, incantations de Newsletter, et rituels des réseaux sociaux. Je peux créer des portails web et invoquer des communautés.
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-name">Storytelling Bardique</div>
+                            <div class="skill-level">Maître</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                        <div class="skill-description">
+                            L'art ancestral de tisser des récits captivants. Mes histoires touchent les cœurs et créent des ponts entre les âmes.
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-name">Empathie Télépathique</div>
+                            <div class="skill-level">Légendaire</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="95"></div>
+                        </div>
+                        <div class="skill-description">
+                            Capacité rare de percevoir les émotions non-dites. Cette compétence passive me permet de créer des safe spaces et d'adapter mon aura.
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-name">Project Management</div>
+                            <div class="skill-level">Avancé</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                        <div class="skill-description">
+                            Organisation méticuleuse des quêtes, gestion des ressources, et coordination d'équipe. Je transforme le chaos en ordre structuré.
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-name">Creative Cantrips</div>
+                            <div class="skill-level">Expert</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="88"></div>
+                        </div>
+                        <div class="skill-description">
+                            Sorts mineurs de création : montage visuel, écriture enchantée, et design intuitif. Je donne forme aux idées abstraites.
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-name">Analyse des Arcanes</div>
+                            <div class="skill-level">Proficient</div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="75"></div>
+                        </div>
+                        <div class="skill-description">
+                            Lecture des analytics, interprétation des tendances, et divination des comportements utilisateurs. Les données révèlent leurs secrets.
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 style="font-family: 'Cinzel', serif; color: #d4c4a0; margin: 3rem 0 2rem;">Feats Spéciaux</h3>
+                
+                
+                <div class="trait-card">
+                    <h3 class="trait-title">Voix de Velours</h3>
+                    <p class="trait-description">
+                        +2 en Persuasion quand je parle avec authenticité. Ma voix a une qualité radiophonique naturelle qui apaise et captive.
+                    </p>
+                </div>
+            </div></div>
+        </section>
+        
+        <!-- Section Inventaire -->
+        <section id="inventory" class="content-section">
+            <h2 class="section-title">Inventaire - Équipement & Artefacts</h2>
+            <div class="section-content">
+                <h3 style="font-family: 'Cinzel', serif; color: #d4c4a0; margin-bottom: 2rem;">Équipement Principal</h3>
+                <div class="inventory-grid">
+                    <div class="item-card">
+                        <div class="item-rarity epic"></div>
+                        <div class="item-icon">💻</div>
+                        <div class="item-name">Grimoire Digital</div>
+                        <div class="item-description">MacBook enchanté. +3 en création de contenus. Permet le télétravail à distance.</div>
+                    </div>
+                    
+                    <div class="item-card">
+                        <div class="item-rarity rare"></div>
+                        <div class="item-icon">🎙️</div>
+                        <div class="item-name">Microphone des Murmures</div>
+                        <div class="item-description">Capture l'essence des voix. Qualité studio. Prérequis pour le Projet Podcast.</div>
+                    </div>
+                    
+                    <div class="item-card">
+                        <div class="item-rarity legendary"></div>
+                        <div class="item-icon">📚</div>
+                        <div class="item-name">Bibliothèque Infinie</div>
+                        <div class="item-description">Accès illimité aux savoirs. Podcasts, livres audio, et grimoires digitaux.</div>
+                    </div>
+                    
+                    <div class="item-card">
+                        <div class="item-rarity epic"></div>
+                        <div class="item-icon">☕</div>
+                        <div class="item-name">Calice de Concentration</div>
+                        <div class="item-description">Thé sacré. Restaure 2d4 points de mana. Bonus de +2 en focus pendant 1h.</div>
+                    </div>
+                </div>
+                
+                <h3 style="font-family: 'Cinzel', serif; color: #d4c4a0; margin: 3rem 0 2rem;">Outils de Classe</h3>
+                <div class="inventory-grid">
+                    <div class="item-card">
+                        <div class="item-icon">🛠️</div>
+                        <div class="item-name">WordPress Toolkit</div>
+                        <div class="item-description">Ensemble complet pour créer des portails web. Inclut thèmes et plugins enchantés.</div>
+                    </div>
+                    
+                    <div class="item-card">
+                        <div class="item-icon">📊</div>
+                        <div class="item-name">Orbe d'Analytics</div>
+                        <div class="item-description">Révèle les patterns cachés des données. Vision vraie sur les comportements.</div>
+                    </div>
+                    
+                    <div class="item-card">
+                        <div class="item-icon">🎨</div>
+                        <div class="item-name">Palette de Canva</div>
+                        <div class="item-description">Transforme les idées en visuels. Sorts de design instantanés.</div>
+                    </div>
+                    
+                    <div class="item-card">
+                        <div class="item-icon">📧</div>
+                        <div class="item-name">Parchemins de Newsletter</div>
+                        <div class="item-description">Messages enchantés qui trouvent toujours leur destinataire. Taux d'ouverture +15%.</div>
+                    </div>
+                </div>
+                
+                <h3 style="font-family: 'Cinzel', serif; color: #d4c4a0; margin: 3rem 0 2rem;">Projets en Développement</h3>
+                <div><div class="trait-card">
+                    <h3 class="trait-title">🎲 Le Projet Podcast (Artefact Légendaire en création)</h3>
+                    <p class="trait-description">
+                        Un podcast de jeu de rôle actual play avec mes compagnes d'aventure. Inspiré par Critical Role et La Bonne Auberge. 
+                        Système de soutien via Patreon prévu (tiers à 5€, 12€, 25€). Contenu bonus : débriefs d'épisodes et émissions thématiques.
+                        <br><br>
+                        <strong>Progression :</strong> Recherche de la party idéale en cours. Tests de synergie avec différents joueurs.
+                    </p>
+                </div>
+            </div></div>
+        </section>
+        
+        <!-- Section Tavern/Contact -->
+        <section id="tavern" class="content-section">
+            <div class="contact-section">
+                <h2 class="contact-title">La Taverne de l'Aventurière</h2>
+                <p style="color: #b8a992; margin-bottom: 3rem;">
+                    Vous cherchez une Barde-Archiviste pour votre guilde ? Une tisseuse d'histoires pour vos quêtes digitales ?<br>
+                    Entrez dans ma taverne, partageons une chope et discutons de nos futures aventures !
+                </p>
+                
+                <div class="trait-card" style="margin-bottom: 3rem;">
+                    <h3 class="trait-title">🎯 Quête Active : Recherche de Guilde (CDI)</h3>
+                    <p class="trait-description">
+                        Je cherche une guilde stable où investir mes talents sur le long terme. Idéalement avec 1-2 jours de télétravail par semaine 
+                        pour maintenir mon équilibre vie/aventure. Alignement requis : valeurs d'authenticité et de bienveillance.
+                    </p>
+                </div>
+                
+                <div class="contact-grid">
+                    </div>
+                
+                <p style="color: #8b704b; margin-top: 3rem; font-style: italic; text-align: center;">
+                    "Les meilleures aventures commencent par une rencontre fortuite à la taverne."<br>
+                    <span style="font-size: 0.9rem;">- Sagesse Bardique, Manuel du Joueur</span>
+                </p>
+            </div>
+        </section>
+    </div>
+    
+    <script>
+        // Génération des particules
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 12 + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+        
+        // Navigation entre sections
+        function navigateToSection(sectionId, cardElement) {
+            // Retirer la classe active de toutes les cartes
+            document.querySelectorAll('.nav-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            
+            // Ajouter la classe active à la carte cliquée
+            cardElement.classList.add('active');
+            
+            // Cacher toutes les sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Afficher la section sélectionnée
+            const targetSection = document.getElementById(sectionId);
+            if (targetSection) {
+                targetSection.classList.add('active');
+                
+                // Scroll smooth vers la section
+                setTimeout(() => {
+                    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100);
+                
+                // Animer les barres de progression si c'est la section compétences
+                if (sectionId === 'skills') {
+                    animateSkillBars();
+                }
+            }
+        }
+        
+        // Animation des barres de compétences
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skill-progress');
+            skillBars.forEach(bar => {
+                const progress = bar.getAttribute('data-progress');
+                setTimeout(() => {
+                    bar.style.width = progress + '%';
+                }, 200);
+            });
+        }
+        
+        // Roll du dé de niveau
+        function rollNiveau() {
+            const dice = document.getElementById('levelDice');
+            dice.classList.add('rolling');
+            
+            let rollCount = 0;
+            const rollInterval = setInterval(() => {
+                dice.textContent = Math.floor(Math.random() * 20) + 1;
+                rollCount++;
+                
+                if (rollCount > 10) {
+                    clearInterval(rollInterval);
+                    dice.textContent = '5';
+                    dice.classList.remove('rolling');
+                }
+            }, 100);
+        }
+        
+        // Roll des dés de stats
+        function rollStatDice(element) {
+            // Sauvegarder la valeur originale (juste le nombre)
+            const valueNode = element.firstChild;
+            if (!valueNode) return;
+            
+            const originalValue = valueNode.textContent.trim();
+            element.style.transform = 'scale(1.2) rotate(360deg)';
+            
+            let rollCount = 0;
+            const rollInterval = setInterval(() => {
+                valueNode.textContent = Math.floor(Math.random() * 20) + 1;
+                rollCount++;
+                
+                if (rollCount > 8) {
+                    clearInterval(rollInterval);
+                    valueNode.textContent = originalValue;
+                    element.style.transform = 'scale(1) rotate(0deg)';
+                }
+            }, 100);
+        }
+        
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            
+            // Afficher la première section par défaut
+            document.getElementById('backstory').classList.add('active');
+        });
+    </script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche de Personnage - Aventurière du Numérique</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Cinzel:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0a0f;
+            color: #e6e0d4;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        
+        /* Fond avec dégradé dynamique */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 25% 25%, rgba(139, 112, 75, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(139, 112, 75, 0.1) 0%, transparent 50%),
+                linear-gradient(135deg, #0a0a0f 0%, #1a1a24 50%, #0f0f1a 100%);
+            z-index: -2;
+        }
+        
+        /* Particules subtiles */
+        .ambient-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            background: #8b704b;
+            opacity: 0.3;
+            animation: float 12s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+            33% { transform: translateY(-20px) translateX(10px); opacity: 0.6; }
+            66% { transform: translateY(-10px) translateX(-5px); opacity: 0.4; }
+        }
+        
+        /* Header Hero */
+        .hero-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 2rem;
+        }
+        
+        .hero-content {
+            text-align: center;
+            max-width: 800px;
+            z-index: 10;
+        }
+        
+        .hero-title {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 700;
+            color: #d4c4a0;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 20px rgba(212, 196, 160, 0.3);
+            letter-spacing: -2px;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: #8b704b;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .hero-description {
+            font-size: 1.2rem;
+            color: #b8a992;
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Système de cartes Daggerheart-style */
+        .card-navigation {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 4rem;
+        }
+        
+        .nav-card {
+            width: 180px;
+            height: 240px;
+            background: linear-gradient(145deg, #1a1a24, #141420);
+            border: 1px solid #3a3447;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .nav-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(139, 112, 75, 0.1) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        
+        .nav-card:hover {
+            transform: translateY(-10px) scale(1.05);
+            border-color: #8b704b;
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.5),
+                0 0 30px rgba(139, 112, 75, 0.2);
+        }
+        
+        .nav-card:hover::before {
+            opacity: 1;
+        }
+        
+        .nav-card.active {
+            border-color: #d4c4a0;
+            background: linear-gradient(145deg, #2a2a34, #1e1e2a);
+            transform: translateY(-5px);
+        }
+        
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #8b704b;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-card:hover .card-icon {
+            color: #d4c4a0;
+            transform: scale(1.1);
+        }
+        
+        .card-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #d4c4a0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card-subtitle {
+            font-size: 0.8rem;
+            color: #8b704b;
+            opacity: 0.8;
+        }
+        
+        /* Niveau de personnage */
+        .character-level {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+        }
+        
+        .level-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .level-dice {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(145deg, #8b704b, #6d5a3d);
+            border: 3px solid #d4c4a0;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        }
+        
+        .level-dice:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+        }
+        
+        .level-dice.rolling {
+            animation: rollDice 1s ease-in-out;
+        }
+        
+        @keyframes rollDice {
+            0%, 100% { transform: rotateX(0) rotateY(0); }
+            25% { transform: rotateX(90deg) rotateY(90deg); }
+            50% { transform: rotateX(180deg) rotateY(180deg); }
+            75% { transform: rotateX(270deg) rotateY(270deg); }
+        }
+        
+        .level-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #d4c4a0;
+            text-align: center;
+        }
+        
+        /* Sections de contenu */
+        .content-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        .content-section {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.8), rgba(20, 20, 32, 0.8));
+            border: 1px solid #3a3447;
+            border-radius: 20px;
+            padding: 4rem;
+            margin-bottom: 3rem;
+            
+            position: relative;
+            overflow: hidden;
+            display: none;
+        }
+        
+        .content-section.active {
+            display: block;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        .content-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 10% 10%, rgba(139, 112, 75, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 90% 90%, rgba(139, 112, 75, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .section-title {
+            font-family: 'Cinzel', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: #d4c4a0;
+            margin-bottom: 3rem;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .section-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #b8a992;
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* Backstory style parchemin */
+        .backstory-scroll {
+            
+            
+            border-radius: 8px;
+            padding: 2.5rem;
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .backstory-scroll::before {
+            content: '❦';
+            position: absolute;
+            top: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5rem;
+            color: #8b704b;
+        }
+        
+        .trait-card {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.9), rgba(20, 20, 32, 0.9));
+            border: 1px solid #3a3447;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .trait-title {
+            font-family: 'Cinzel', serif;
+            color: #d4c4a0;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+        }
+        
+        .trait-description {
+            color: #b8a992;
+            font-style: italic;
+        }
+        
+        /* Grille de statistiques D&D style */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.9), rgba(20, 20, 32, 0.9));
+            border: 1px solid #3a3447;
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(139, 112, 75, 0.1) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-8px);
+            border-color: #8b704b;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .stat-card:hover::before {
+            opacity: 1;
+        }
+        
+        .stat-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+        
+        .stat-name {
+            font-family: 'Cinzel', serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #d4c4a0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .stat-value {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(145deg, #3a3447, #2a2a34);
+            
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #d4c4a0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .stat-modifier {
+            position: absolute;
+            bottom: -8px;
+            right: -8px;
+            background: #8b704b;
+            color: #fff;
+            font-size: 0.8rem;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+        }
+        
+        .stat-value:hover {
+            transform: scale(1.1);
+            border-color: #d4c4a0;
+        }
+        
+        .stat-description {
+            color: #8b704b;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        /* Journal de quêtes style D&D */
+        .quest-journal {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .quest-card {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.95), rgba(20, 20, 32, 0.95));
+            border: 1px solid #3a3447;
+            border-radius: 16px;
+            padding: 2.5rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .quest-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(139, 112, 75, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        
+        .quest-card:hover {
+            transform: translateY(-10px);
+            border-color: #8b704b;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+        }
+        
+        .quest-card:hover::before {
+            opacity: 1;
+        }
+        
+        .quest-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .quest-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(145deg, #8b704b, #6d5a3d);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: #fff;
+        }
+        
+        .quest-info h3 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4rem;
+            color: #d4c4a0;
+            margin-bottom: 0.3rem;
+        }
+        
+        .quest-type {
+            color: #8b704b;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        
+        .quest-description {
+            color: #b8a992;
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        
+        .quest-rewards {
+            border-top: 1px solid #3a3447;
+            padding-top: 1.5rem;
+        }
+        
+        .rewards-title {
+            color: #d4c4a0;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .rewards-list {
+            color: #8b704b;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        /* Compétences avec barres de progression élégantes */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .skill-card {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.9), rgba(20, 20, 32, 0.9));
+            border: 1px solid #3a3447;
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-5px);
+            border-color: #8b704b;
+        }
+        
+        .skill-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+        
+        .skill-name {
+            font-family: 'Cinzel', serif;
+            font-size: 1.1rem;
+            color: #d4c4a0;
+            font-weight: 600;
+        }
+        
+        .skill-level {
+            background: linear-gradient(145deg, #8b704b, #6d5a3d);
+            color: #fff;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .skill-bar {
+            height: 8px;
+            background: rgba(58, 52, 71, 0.5);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 1rem 0;
+            position: relative;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #8b704b, #d4c4a0);
+            border-radius: 4px;
+            transition: width 2s ease-out;
+            position: relative;
+            width: 0;
+        }
+        
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            animation: shimmer 2s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        .skill-description {
+            color: #8b704b;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        /* Inventaire style D&D */
+        .inventory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .item-card {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.9), rgba(20, 20, 32, 0.9));
+            border: 1px solid #3a3447;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .item-card:hover {
+            transform: translateY(-5px);
+            border-color: #8b704b;
+        }
+        
+        .item-rarity {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        
+        .item-rarity.rare {
+            background: #4169E1;
+            box-shadow: 0 0 10px #4169E1;
+        }
+        
+        .item-rarity.epic {
+            background: #9370DB;
+            box-shadow: 0 0 10px #9370DB;
+        }
+        
+        .item-rarity.legendary {
+            background: #FF8C00;
+            box-shadow: 0 0 10px #FF8C00;
+        }
+        
+        .item-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #8b704b;
+        }
+        
+        .item-name {
+            font-family: 'Cinzel', serif;
+            color: #d4c4a0;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .item-description {
+            color: #8b704b;
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+        
+        /* Section contact finale */
+        .contact-section {
+            background: linear-gradient(145deg, rgba(26, 26, 36, 0.95), rgba(20, 20, 32, 0.95));
+            border: 1px solid #3a3447;
+            border-radius: 20px;
+            padding: 4rem;
+            text-align: center;
+            margin: 4rem auto;
+            max-width: 800px;
+        }
+        
+        .contact-title {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            color: #d4c4a0;
+            margin-bottom: 2rem;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .contact-item {
+            background: linear-gradient(145deg, rgba(58, 52, 71, 0.5), rgba(42, 42, 52, 0.5));
+            border: 1px solid #3a3447;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-item:hover {
+            transform: translateY(-5px);
+            border-color: #8b704b;
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            color: #8b704b;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-link {
+            color: #d4c4a0;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-link:hover {
+            color: #8b704b;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 3rem;
+            }
+            
+            .card-navigation {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .nav-card {
+                width: 140px;
+                height: 180px;
+                padding: 1rem;
+            }
+            
+            .character-level {
+                bottom: 1rem;
+                right: 1rem;
+            }
+            
+            .level-dice {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+            }
+            
+            .content-section {
+                padding: 2rem;
+            }
+        }
+        
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Particules d'ambiance -->
+    <div class="ambient-particles" id="particles"></div>
+    
+    <!-- Section Hero -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Scribe des Royaumes Numériques</h1>
+            <p class="hero-subtitle">Classe : Barde-Archiviste | Sous-classe : Tisseuse d'Histoires Digitales</p>
+            <p class="hero-description">
+                Une aventurière de niveau 5 parcourant les terres infinies du web, armée de sa plume enchantée et de ses sorts de communication. 
+                Spécialisée dans l'art ancestral du storytelling et la magie des connexions authentiques.
+            </p>
+            
+            <!-- Navigation par cartes -->
+            <div class="card-navigation">
+                <div class="nav-card active" onclick="navigateToSection('backstory', this)">
+                    <div class="card-icon">📜</div>
+                    <div class="card-title">Backstory</div>
+                    <div class="card-subtitle">Origines & Traits</div>
+                </div>
+                <div class="nav-card" onclick="navigateToSection('abilities', this)">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-title">Attributs & Modificateurs</div>
+                    <div class="card-subtitle">Stats principales</div>
+                </div>
+                <div class="nav-card" onclick="navigateToSection('quests', this)">
+                    <div class="card-icon">🗡️</div>
+                    <div class="card-title">Journal de Quêtes</div>
+                    <div class="card-subtitle">Aventures complétées</div>
+                </div>
+                <div class="nav-card" onclick="navigateToSection('skills', this)">
+                    <div class="card-icon">✨</div>
+                    <div class="card-title">Compétences & Dons</div>
+                    <div class="card-subtitle">Compétences acquises</div>
+                </div>
+                <div class="nav-card" onclick="navigateToSection('inventory', this)">
+                    <div class="card-icon">🎒</div>
+                    <div class="card-title">Inventaire</div>
+                    <div class="card-subtitle">Équipement & Tools</div>
+                </div>
+                <div class="nav-card" onclick="navigateToSection('tavern', this)">
+                    <div class="card-icon">🍺</div>
+                    <div class="card-title">La Taverne</div>
+                    <div class="card-subtitle">Rejoindre la party</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Niveau du personnage -->
+    
+            <div class="level-label">Niveau<br>Barde</div>
+        <div><div class="trait-card">
+                    <h3 class="trait-title">Idéal</h3>
+                    <p class="trait-description">
+                        "L'authenticité est mon credo. Dans un monde d'illusions et de masques, je cherche la vérité derrière chaque histoire, la sincérité dans chaque connexion. Mon équilibre intérieur guide mes pas."
+                    </p>
+                </div>
+                
+                <div class="trait-card">
+                    <h3 class="trait-title">Lien</h3>
+                    <p class="trait-description">
+                        "Ma fidélité va à ceux qui partagent mes valeurs et ma quête de sens. Je tisse des liens profonds avec ma communauté, créant un réseau de confiance où chacun peut être soi-même."
+                    </p>
+                </div>
+                
+                <div class="trait-card">
+                    <h3 class="trait-title">Défaut</h3>
+                    <p class="trait-description">
+                        "Mon idéalisme peut être ma faiblesse - j'attends parfois trop des autres et des situations. Ma peur des conflits me pousse parfois à garder le silence quand je devrais parler."
+                    </p>
+                </div>
+                
+                </div><h3 style="font-family: 'Cinzel', serif; color: #d4c4a0; margin: 3rem 0 1.5rem;">Histoire Personnelle</h3>
+                <p>
+                    Née avec une sensibilité rare (18 en Wisdom), j'ai toujours perçu le monde différemment. Là où d'autres voyaient du bruit, je percevais des patterns. Là où certains scrollaient sans but, je tissais des histoires.
+                </p>
+                <p>
+                    Mon parcours dans les guildes de la communication m'a appris à maîtriser les arcanes du digital. J'ai étudié sous les maîtres du WordPress, appris les sorts de Newsletter, et maîtrisé l'art délicat de l'Animation de Communauté.
+                </p>
+                <p>
+                    Ma quête actuelle ? Trouver une guilde stable (CDI) où mes talents pourront s'épanouir, tout en préparant en secret le lancement d'un artefact légendaire : un podcast de jeu de rôle avec mes compagnes d'aventure.
+                </p>
+            </div>
+        </section>
+    
+
+
+    </div>
+    </div>
+    
+    <!-- Contenu principal -->
+    <div class="content-container">
+        <!-- Section Backstory -->
+        <section id="backstory" class="content-section active">
+            <h2 class="section-title">Histoire du Personnage</h2>
+            <div class="section-content">
+                <div>
+                    <p><strong>Nom :</strong> Beryl Venant</p>
+                    <p><strong>Race :</strong> Humaine (Variante)</p>
+                    <p><strong>Background :</strong> Sage des Archives Numériques</p>
+                    <p><strong>Alignment :</strong> Neutral Good</p>
+                </div>
+                
+                <div class="trait-card">
+                    <h3 class="trait-title">Trait de Personnalité</h3>
+                    <p class="trait-description">
+                        "Je suis une observatrice née, analysant les patterns invisibles du monde digital. Mon intuition est ma boussole - j'ai besoin de comprendre le 'pourquoi' avant de lancer mes sorts. Les ambiances calmes sont mes sanctuaires, loin du chaos des donjons bondés."
